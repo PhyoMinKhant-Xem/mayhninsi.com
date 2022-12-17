@@ -1,0 +1,1274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.mapouter8{
+	display: none;
+}
+header{
+	height: 12vh;
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+header .logo img{
+	display: inline-block;
+	width: 65%;
+	margin-left: 85%;
+	margin-right: 45%;
+	margin-top: 7%;
+}
+header .navbar{
+	display: inline-block;
+	width: 75%;
+	margin-left: 10%;
+	text-align: center;
+}
+header .navbar a{
+	display: inline-block;
+	padding: 0 3%;
+	font-size: 1.2rem;
+	color: black;
+	line-height: 12vh;
+}
+header .navbar a:hover{
+	color: orange;
+}
+header .navbar a span{
+    text-decoration: none;
+ 	background: transparent;
+ 	color: #fff;
+	border: 2px solid orange;
+ 	padding: 14px 50px;
+ 	color: black;
+ 	border-radius: 50px;
+ 	transition: 0.5s;
+ 	height: 2vh;
+
+ }
+ header .icon{
+	display: inline-block;
+	width: 20%;
+	margin-left: 5%;
+	margin-top: 2.2%;
+}
+header .icon i{
+	display: inline-block;
+	color: black;
+	display: inline-block;
+	margin-left: 8%;
+}
+header .icon i:hover{
+	color: orange;
+	
+}
+hr{
+	margin-top: 1%;
+}
+section{
+	display: inline-block;
+	width: 100%;
+	height: 87.8vh;	
+}
+section img{
+	display: inline-block;
+	float: right;
+	width: 40%;
+	margin-top: 8%;
+	margin-right: 10%;
+}
+section h1{
+	display: inline-block;
+	margin-top: 20%;
+	font-size: 5rem;
+	margin-left: 13%;
+}
+section p{
+	font-size: 1.3rem;
+	margin-left: 13.5%;
+}
+section button{
+	margin-left: 13.5%;
+	width: 10%;
+	border-radius: 30px;
+	height: 6vh;
+	font-size: 1.2rem;
+	background-color: orange;
+	margin-top: 1.5%;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+section button a{
+	color: black;
+}
+section button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+
+.rc h2{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 8%;
+}
+.rc hr{
+	width: 5%;
+	height: .5vh;
+	background: orange;
+	margin-left: 47.5%;
+	margin-top: 0.1%;
+	margin-bottom: 1%;
+}
+.rc .rc1 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rc .rc1 p{
+	text-align: center;
+}
+.rc .rc1 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rc .rc1 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.rc .rc1{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 18%;
+	box-shadow: 0 0 4px 2px black;
+	border-radius: 30px;
+}
+.rc .rc2 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rc .rc2 p{
+	text-align: center;
+}
+.rc .rc2 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rc .rc2 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.rc .rc2{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border: 1px ;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+
+}
+.rc .rc3 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rc .rc3 p{
+	text-align: center;
+}
+.rc .rc3 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rc .rc3 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.rc .rc3{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-right: 14%;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+}
+.rc4 p a{
+	float: right;
+	margin-right: 20%;
+	margin-top: 1%;
+	color: orange;
+}
+.rc button a{
+	color: black;
+}
+.rc button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.promo{
+	display: inline-block;
+	width: 100%;
+	height: 50vh;
+	margin-top: 3%;
+	background-color: #FEDEBE;
+
+}
+.promo h2{
+	text-align: center;
+	margin-top: 1.2%;
+	font-size: 2rem;
+
+}
+.promo img{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	margin-left: 10%;
+}
+.promo .promosec h3{
+	display: inline-block;
+	margin-top: 3%;
+	font-size: 1.3rem;
+
+}
+.promo .promosec p{
+	font-size: 1.3rem;
+	margin-left: 13.8%;
+	margin-top: 1%;
+}
+.price{
+	font-weight: bold;
+	margin-top: 1%;
+}
+.promo button{
+	width: 10%;
+	border-radius: 30px;
+	height: 6vh;
+	font-size: 1.2rem;
+	background-color: orange;
+	margin-top: 2%;
+	margin-left: -0.5%;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.promo button a{
+	color: black;
+}
+.promo button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.mp h2{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 3%;
+}
+.mp hr{
+	width: 5%;
+	height: .5vh;
+	background: orange;
+	margin-left: 47.5%;
+	margin-top: 0.1%;
+	margin-bottom: 1%;
+}
+.mp .mp1 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.mp .mp1 p{
+	text-align: center;
+}
+.mp .mp1 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.mp .mp1 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.mp .mp1{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 18%;
+	box-shadow: 0 0 4px 2px black;
+	border-radius: 30px;
+}
+.mp .mp2 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.mp .mp2 p{
+	text-align: center;
+}
+.mp .mp2 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.mp .mp2 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.mp .mp2{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border: 1px ;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+
+}
+.mp .mp3 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.mp .mp3 p{
+	text-align: center;
+}
+.mp .mp3 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.mp .mp3 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.mp .mp3{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-right: 14%;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+}
+.mp button a{
+	color: black;
+}
+.mp button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.packages{
+	margin: 3vh 10% 0 10%;
+	width: 80%;
+	height: 90vh;
+	display: inline-block;
+}
+.packages h2{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 3%;
+}
+.packages hr{
+	width: 5%;
+	height: .5vh;
+	background: orange;
+	margin-left: 47.5%;
+	margin-top: 0.1%;
+	margin-bottom: 1%;
+}
+.packages p{
+	margin-left: 2vh;
+	font-size: 20px;
+}
+table{
+	float: left;
+}
+table, th, td{
+	border-collapse: collapse;
+}
+table, td{
+	padding-left: 4%;
+}
+th{
+	font-size: 25px;
+}
+.packages table{
+	width: 60%;
+	margin: 3vh 20%;
+	border-radius: 30px;
+	box-shadow: 0 2px 5px 0;
+}
+.packages tr{
+	height: 13vh;
+}
+.packages button{
+	float: right;
+	border-radius: 30px;
+	padding: 0 2.5%;
+	height: 4vh;
+	float: left;
+	width: 35%;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.packages button a{
+	color: black;
+}
+.packages button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+/*refrece to AMM*/
+
+.abt{
+	width: 80%;
+	height: 45vh;
+	margin-top: 4%;
+	margin-bottom: 3%;
+	margin-left: 9.8%;
+	background-color: #FEDEBE;
+	border-radius: 30px;
+}
+.abt h2{
+	text-align: center;
+	padding-top: 5%;
+	font-size: 2rem;
+}
+.abt p{
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 1.2rem;
+}
+.abt a{
+	color: orange;
+}
+.other{
+	margin-top: 2%;
+	width: 100%;
+}
+.oth1{
+	width: 20%;
+	height: 10vh;
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: 9.5%;
+}
+.oth1 i{
+	float: left;
+	line-height: 10vh;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.oth1 h4{
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+.oth1 p{
+	font-size: 0.8rem;
+
+}
+.oth2{
+	width: 20%;
+	height: 10vh;
+	display: inline-block;
+	border: 1px solid black;
+}
+.oth2 i{
+	float: left;
+	line-height: 10vh;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.oth2 h4{
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+.oth2 p{
+	font-size: 0.8rem;
+
+}
+.oth3{
+	width: 20%;
+	height: 10vh;
+	display: inline-block;
+	border: 1px solid black;
+}
+.oth3 i{
+	float: left;
+	line-height: 10vh;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.oth3 h4{
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+.oth3 p{
+	font-size: 0.8rem;
+
+}
+.oth4{
+	width: 20%;
+	height: 10vh;
+	display: inline-block;
+	border: 1px solid black;
+}
+.oth4 i{
+	float: left;
+	line-height: 10vh;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.oth4 h4{
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+}
+.oth4 p{
+	font-size: 0.8rem;
+
+}
+footer{
+	display: inline-block;
+	margin-top: 2%;
+	width: 100%;
+	border: 1px solid black;
+	height: 50vh;
+}
+footer img{
+	display: block;
+	margin-top: 1%;
+	width: 10%;
+	margin-left: 45%;
+	margin-bottom: 2%;
+	position: relative;
+
+}
+footer .info{
+	display: inline-block;
+	margin-left: 28%;
+}
+footer .acc{
+	display: inline-block;
+	margin-left: 5%;
+}
+footer .loca{
+	display: inline-block;
+	margin-left: 10%;
+	text-align: center;
+}
+footer textarea{
+	display: inline-block;
+	width: 12%;
+	height: 2.5vh;
+	margin-left: 28%;
+	margin-top: 2%;
+	position: absolute;
+}
+footer button{
+	display: inline-block;
+	position: absolute;
+	margin-left: 40.5%;
+	margin-top: 2%;
+	background-color: orange;
+	width: 4%;
+	height: 2.5vh;
+	border-radius: 30px;
+	border: 1px transparent;
+	cursor: pointer;
+}
+footer button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+footer .icon{
+	width: 30%;
+	height: 7vh;
+	float: right;
+	margin-right: 18.5%;
+	margin-top: 1%;
+}
+footer .icon a{
+	width: 12%;
+	height: 7vh;
+	border-radius: 35px;
+	text-align: center;
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: black;
+	line-height: 7vh;
+}
+footer hr{
+	border: 1px solid black;
+	background-color: orange;
+	margin-top: 7%;
+	width: 75%;
+	margin-left: 12.5%;
+}
+footer .end{
+	text-align: center;
+	margin-top: 1%;
+}
+.con{
+	width: 100%;
+	height: 80vh;
+	border-bottom: 1px solid black;
+
+}
+.mapouter{
+	margin-top: 15%;
+	margin-left: 8%;
+	float: left;
+}
+.con{
+	width: 100%;
+	height: 92vh;
+}
+.contacus{
+	display: inline-block;
+	margin-left: 15%;
+	width: 35%;
+	margin-top: 12%;
+
+}
+.contacus input{
+	padding-left: 3px;
+	width: 65%;
+	border: 1px solid black;
+	height: 3.5vh;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.contacus h2{
+	margin-bottom: 2%;
+	text-transform: uppercase;
+}
+.contacus textarea{
+	width: 90%;
+	height: 12vh;
+	margin-top: 1%;
+}
+.contacus button{
+	width: 25%;
+	border-radius: 30px;
+	height: 6vh;
+	font-size: 1rem;
+	background-color: orange;
+	margin-top: 1.5%;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.contacus button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.foend p{
+	margin-top: 1.5%;
+	text-align: center;
+
+}
+.abtus h2{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 12%;
+}
+.abtus hr{
+	width: 5%;
+	margin-left: 47.5%;
+	margin-top: -0.1%;
+	margin-bottom: 2%;
+	border: 2px solid orange;
+}
+.abtus p{
+	text-align: center;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-size: 1.2rem;
+	margin-bottom: 10.2%;
+}
+.app{
+	width: 100%;
+	height: 35vh;
+	display: inline-block;
+	background-color: #FEDEBE;
+}
+.app .lo{
+	width: 15%;
+	margin-top: 1%;
+	margin-left: 25%;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+}
+.appb{
+	display: inline-block;
+	float: right;
+	width: 45%;
+	margin-right: 13%;
+}
+.appb h3{
+	font-size: 1.8rem;
+	margin-top: 5%;
+}
+.appb p{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.appb .re{
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	border-right: 1px solid black;
+	width: 40%;
+}
+.appb .re1{
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	width: 40%;
+}
+.appb .ps{
+	width: 20%;
+	margin-left: 10%;
+}
+.appb .as{
+	width: 19.5%;
+	margin-left: 20%;
+}
+.nav2{
+	width: 25%;
+	float: left;
+	height: 100vh;
+	position: fixed;
+	top: 12vh;
+}
+.nav2 a{
+	color: black;
+	padding-left: 15%;
+	padding-top: 10%;
+	line-height: 8vh;
+}
+.nav2 a:hover{
+	color: orange;
+}
+.nav2 a span{
+	text-decoration: none;
+	text-decoration: none;
+ 	background: orange;
+ 	color: #fff;
+	border: 2px solid orange;
+ 	padding: 10px 45px;
+ 	color: black;
+ 	border-radius: 50px;
+ 	transition: 0.5s;
+ 	height: 2vh;
+}
+.rp{
+	display: inline-block;
+	width: 91%;
+	float: right;
+}
+.rp h2{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 20vh;
+}
+.rp hr{
+	width: 5%;
+	height: .5vh;
+	background: orange;
+	margin-left: 47.5%;
+	margin-top: 0.1%;
+	margin-bottom: 1%;
+}
+.rp .rc1 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rp .rc1 p{
+	text-align: center;
+}
+.rp .rc1 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rp .rc1 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.rp .rc1{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 18%;
+	box-shadow: 0 0 4px 2px black;
+	border-radius: 30px;
+}
+.rp .rc2 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rp .rc2 p{
+	text-align: center;
+}
+.rp .rc2 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rp .rc2 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.rp .rc2{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border: 1px ;
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+
+}
+.rp .rc3 h3{
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 2.5%;
+	margin-bottom: 1%;
+}
+.rp .rc3 p{
+	text-align: center;
+}
+.rp .rc3 img{
+	width: 100%;
+	height: 23.5vh;
+	border-radius: 30px;
+}
+.rp .rc3 button{
+	float: right;
+	width: 25%;
+	border-radius: 30px;
+	height: 4vh;
+	margin: 5%;
+	font-size: 0.8rem;
+	background-color: orange;
+	border: 2px solid orange;
+	cursor: pointer;
+}
+.rp .rc3{
+	display: inline-block;
+	width: 20%;
+	margin-top: 1%;
+	margin-right: 14%;
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0 0 4px 2px black;
+}
+.rp button a{
+	color: black;
+}
+.rp button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.packagesb{
+	margin: 3vh 10% 0 10%;
+	width: 80%;
+	height: 90vh;
+	display: inline-block;
+	margin-top: 8%;
+	margin-bottom: 3%;
+}
+.packagesb h2{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 3%;
+}
+.packagesb hr{
+	width: 5%;
+	height: .5vh;
+	background: orange;
+	margin-left: 47.5%;
+	margin-top: 0.1%;
+	margin-bottom: 1%;
+}
+.packagesb p{
+	margin-left: 2vh;
+	font-size: 20px;
+}
+.packagesb table{
+	float: left;
+}
+.packagesb table, th, td{
+	border-collapse: collapse;
+}
+.packagesb table, td{
+	padding-left: 4%;
+}
+.packagesb th{
+	font-size: 25px;
+}
+.packagesb table{
+	width: 60%;
+	margin: 3vh 0;
+	margin-left: 10%;
+	margin-right: 1%;
+	border-radius: 30px;
+	box-shadow: 0 2px 5px 0;
+}
+.packagesb tr{
+	height: 13vh;
+}
+.packagesb button{
+	float: right;
+	border-radius: 30px;
+	height: 4vh;
+	width: 35%;
+	margin-right: 15%;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.packagesb button a{
+	color: black;
+}
+.packagesb button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.custom{
+	margin: 3vh 0 0;
+	display: inline-block;
+	height: 78vh;
+	width: 28%;
+	background-color: #FEDEBE;
+	border-radius: 30px;
+	box-shadow: 0 2px 5px 0;
+}
+.custom h2{
+	font-size: 30px;
+	margin: 3vh;
+	text-align: center;
+	margin-top: 15vh;
+}
+.custom p,li{
+	font-size: 18px;
+	margin: 2vh 2vh;
+}
+.custom li{
+	list-style-type: circle;
+}
+.custom ul{
+	margin-left: 4vh;
+}
+.custom button{
+	float: right;
+	border-radius: 30px;
+	height: 4vh;
+	float: left;
+	margin-left: 5%;
+	width: 25%;
+	background-color: orange;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+.custom button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.detail{
+	margin-top: 6%;
+	height: 85vh;
+	margin-bottom: 1%;
+}
+.detailt{
+	margin-left: 20%;
+	padding-top: 3%;
+}
+.detailt h2{
+	font-size: 2rem;
+	padding-bottom: 1%;
+}
+.detailt a{
+	color: black;
+	text-decoration: underline;
+}
+.checked{
+	color: orange;
+}
+.detailt .ra{
+	padding-left: 1%;
+	border-right: 1px solid black;
+	padding-right: 2%;
+}
+.detailt .ra2{
+	display: inline-block;
+	padding-left: 2%;
+}
+.detailt .t{
+	padding-top: 1.5%;
+	font-size: 1.2rem;
+	padding-bottom: 0.5%;
+}
+.detaili{
+	display: inline-block;
+	width: 34.31%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+.detaili .im{
+	width: 100%;
+}
+.detaili .md{
+	width: 24.5%;
+}
+.paid{
+	background-color: #FEDEBE;
+	width: 25%;
+	height: 55vh;
+	margin-left: 1.5%;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: 2%;
+
+}
+.dtl{
+	width: 100%;
+	height: 65vh;
+	display: flex;
+}
+.paid h3{
+	padding-top: 15%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	font-size: 1.5rem;
+}
+.paid p{
+	margin-top: 5%;
+	display: inline-block;
+	padding-left: 8%;
+
+}
+.paid label{
+	padding-top: 15%;
+	padding-left: 5%;
+	margin-bottom: 10%;
+	font-weight: bold;
+
+}
+.paid button{
+	width: 80%;
+	height: 4vh;
+	border-radius: 30px;
+	background-color: orange;
+	border: 1px solid transparent;
+	margin-bottom: 1%;
+	margin-top: 10%;
+	margin-left: 10%;
+	cursor: pointer;
+}
+.paid button:hover{
+	background-color: transparent;
+	border: 2px solid orange;
+	transition: 0.8s;
+}
+.pre{
+	margin-left: 20%;
+	margin-top: 2%;
+	background-color: #FEDEBE;
+	width: 34.31%;
+	height: 30vh;
+	border-radius: 30px;
+	margin-bottom: 2%;
+}
+.pre .ti{
+	padding-left: 12%;
+	display: inline-block;
+	padding-top: 8.5%;
+	font-size: 1.2rem;
+}
+.pre p{
+	padding-left: 12%;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+.pre .mi{
+	padding-left: 16.5%;
+	padding-right: 6%;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+.pre .un{
+	padding-left: 12%;
+	font-size: 1.2rem;
+	display: block;
+}
+.ing{
+	margin-left: 20%;
+	width: 25%;
+	display: inline-block;
+}
+.ing h3{
+	font-size: 1.5rem;
+}
+.ing ul {
+  list-style: none;
+}
+.ing ul li::before{
+  content: "\2022";
+  color: orange;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  line-height: 1.5vh;
+}
+.dir{
+	width: 35%;
+	height: 49vh;
+	margin-left: 1.5%;
+	display: inline-block;
+}
+.dir h3{
+	font-size: 1.5rem;
+	padding-bottom: 2.5%;
+}
+.dir h5{
+	font-size: 1.1rem;
+	margin-bottom: 2%;
+	margin-top: 4.08%;
+}
+.dir p{
+	font-size: 1rem;
+	margin-bottom: 2%;
+}
+.wrapper{
+	height: 3vh;
+	width: 22%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+}
+.wrapper span{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	padding: 0 7.5%;
+	cursor: pointer;
+}
+.wrapper span .num{
+	font-size: 50px;
+	border-right: 2px solid rgba(0, 0, 0, 0.2);
+	border-left: 2px solid rgba(0, 0, 0, 0.2);
+	pointer-events: none;
+}
+.wrapper span .minus{
+	padding-left: 1%;
+}
